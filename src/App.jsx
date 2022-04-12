@@ -19,14 +19,12 @@ function App() {
         <ReactQuill value={input} onChange={setInput} />
       </div>
 
-      <div>
+      <div style={{ padding: '1rem' }}>
         <h3>
           Raw String
         </h3>
         {input}
-        <br />
-        <div></div>
-        <br />
+        <br /><br />
         <h3 style={{ marginBottom: 0 }}>
           Parsed String
         </h3>
